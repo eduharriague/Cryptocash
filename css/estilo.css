@@ -1,0 +1,379 @@
+* {
+  margin: "0";
+  padding: "0";
+  box-sizing: "border-box"; }
+
+header .logo img {
+  display: block;
+  width: 180px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 10px; }
+
+header label {
+  display: none;
+  width: 50px;
+  height: 50px;
+  padding: 10px; }
+  header label img {
+    width: 50px;
+    height: 50px; }
+    header label img :hover {
+      cursor: pointer; }
+
+@media only screen and (min-width: 768px) {
+  header .logo img {
+    width: 250px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px; }
+  footer i {
+    font-size: 50px;
+    color: black;
+    margin: 10px; }
+
+main h1 {
+  Color: black;
+  font-family: 'Stick No Bills', sans-serif;
+  text-align: center;
+  padding: 50px;
+  font-size: 40px; }
+
+main .formatoTexto {
+  color: white;
+  line-height: 20px;
+  text-align: center;
+  word-spacing: 3px;
+  padding: 50px;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  background-color: rgba(0, 23, 99, 0.521); }
+
+main .quePodesHacer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 3rem;
+  margin-top: 40px;
+  margin-bottom: 100px; }
+  main .quePodesHacer :hover {
+    transform: scale(1.1, 1.1);
+    transition: 2s; }
+
+main .servicio {
+  background-color: rgba(0, 23, 99, 0.521);
+  padding: 1rem;
+  border-radius: 10%; }
+  main .servicio .servicioTexto {
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: center; }
+
+main .listaDos {
+  Color: black;
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  border-radius: 100%;
+  font-family: 'Stick No Bills', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid; }
+  main .listaDos li {
+    margin-left: auto;
+    margin-right: auto; }
+
+main .converter {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Stick No Bills', sans-serif;
+  width: 400px;
+  border-radius: 3%; }
+
+main .estructuraMonedas {
+  font-size: 18px;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto; }
+
+main .estructuraOpciones {
+  padding: 8px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto; }
+
+main .buttonCotizador {
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center; }
+
+main .estructuraMonedas {
+  font-size: 18px;
+  padding-top: 20px; }
+
+main .estructuraOpciones {
+  padding: 8px;
+  margin-top: 30px; }
+
+main .invertiDesde {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+main h2 {
+  color: black;
+  font-family: 'Stick No Bills', sans-serif;
+  text-align: center;
+  padding: 20px; }
+
+@media only screen and (min-width: 768px) {
+  main nav {
+    font-size: 25px; }
+  main h1 {
+    font-size: 25px; }
+  main h2 {
+    font-size: 22px; }
+  main .formatoTexto {
+    font-size: 18px; }
+  main .listaDos {
+    width: 85%; }
+  main .listaDos li {
+    font-size: 17px; }
+  main .invertiDesde {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+  main .converter {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    font-family: 'Stick No Bills', sans-serif;
+    width: 600px;
+    border-radius: 3%;
+    align-items: center; }
+  main .quePodesHacer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+    margin-bottom: 100px; }
+  main h1 {
+    font-size: 60px; }
+  main h2 {
+    font-size: 50px; }
+  main .formatoTexto {
+    font-size: 25px;
+    word-spacing: 3px;
+    line-height: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; } }
+
+main h1 {
+  Color: black;
+  font-family: 'Stick No Bills', sans-serif;
+  text-align: center;
+  padding: 30px; }
+
+main form {
+  Color: white;
+  font-weight: bold;
+  background-color: rgba(0, 23, 99, 0.651);
+  margin: auto;
+  font-family: 'Stick No Bills', sans-serif;
+  margin-top: 100px;
+  width: 500px; }
+
+main .formatolabels {
+  margin-left: 20px; }
+
+main .estiloInputs {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 5px; }
+
+main .button {
+  padding: 8px;
+  font-family: 'Stick No Bills', sans-serif;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 15px; }
+
+body .fondo {
+  background-image: url(/img/Fondonegro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: center; }
+
+main h3 {
+  color: white;
+  background: linear-gradient(#001763, #001763);
+  text-align: center;
+  margin-top: 50px;
+  width: 100%; }
+
+main .formatoMargin {
+  margin-top: 30px; }
+
+main .estructuraVideos {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center; }
+  main .estructuraVideos li {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: center;
+    margin: 10px;
+    width: 550px; }
+  main .estructuraVideos iframe {
+    width: 350px;
+    height: 200px; }
+
+@media only screen and (min-width: 768px) {
+  main .estructuraVideos {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    justify-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+    margin-bottom: 100px; }
+  main .estructuraVideos iframe {
+    width: 350px;
+    height: 200px; }
+  main .estructuraVideos li {
+    width: 400px; } }
+
+@media only screen and (min-width: 1024px) {
+  main .estructuraVideos iframe {
+    width: 500px;
+    height: 300px; }
+  main .estructuraVideos li {
+    width: 550px; } }
+
+main .tituloBlog {
+  margin-top: 40px; }
+
+main .listaPosteos {
+  height: 800px; }
+
+main .content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center; }
+
+main .post {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  opacity: .8; }
+  main .post :hover {
+    opacity: 1;
+    border: white solid 2px;
+    transform: scale(1.1, 1.1);
+    transition: 2s; }
+
+main .post-body img {
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+
+main .post-link {
+  background-color: #001763; }
+
+main .edicionTexto {
+  line-height: 20px;
+  font-size: 15px; }
+
+@media only screen and (min-width: 1024px) {
+  main .content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto; } }
+
+main h1 {
+  Color: black;
+  font-family: 'Stick No Bills', sans-serif;
+  text-align: center;
+  padding: 50px; }
+
+main form {
+  Color: white;
+  font-weight: bold;
+  background-color: rgba(0, 23, 99, 0.651);
+  margin: auto;
+  font-family: 'Stick No Bills', sans-serif;
+  margin-top: 100px;
+  width: 500px;
+  text-align: center; }
+
+main .estiloInputs {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px; }
+
+main .button {
+  padding: 8px;
+  font-family: 'Stick No Bills', sans-serif;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 15px; }
+  main .button :hover {
+    color: rgba(0, 23, 99, 0.651); }

@@ -1,0 +1,177 @@
+main{
+    h1{
+        Color:black;
+        font-family: 'Stick No Bills', sans-serif;
+        text-align: center;
+        padding: 50px;
+        font-size: 40px;
+    }
+    .formatoTexto{
+        color: white;
+        line-height: 20px;
+        text-align: center;
+        word-spacing: 3px;
+        padding: 50px;
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+        background-color: rgba(0, 23, 99, 0.521);
+    }
+    .quePodesHacer{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 3rem;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        :hover{
+            transform: scale(1.1, 1.1);
+            transition: 2s;
+        }
+    }
+    .servicio{
+        background-color: rgba(0, 23, 99, 0.521);
+        padding: 1rem;
+        border-radius: 10%;
+        .servicioTexto{
+            color: white;
+            font-family: 'Stick No Bills', sans-serif;
+            text-align: center;
+        }
+    }
+    .listaDos{
+        Color:black;
+        font-weight: bold;
+        text-align: center;
+        list-style: none;
+        line-height: 50px;
+        border-radius: 100%;
+        font-family: 'Stick No Bills', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        li{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .converter{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        font-family: 'Stick No Bills', sans-serif;
+        width: 400px;
+        border-radius: 3%;
+    }
+    .estructuraMonedas{
+        font-size: 18px;
+        padding-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .estructuraOpciones{
+        padding: 8px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttonCotizador{
+        padding: 8px;
+        margin-bottom: 10px;
+        margin-top: 80px; 
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .estructuraMonedas{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .estructuraOpciones{
+        padding: 8px;
+        margin-top: 30px;
+    }
+    .invertiDesde{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    h2{
+        color: black;
+        font-family:'Stick No Bills', sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+    @media only screen and (min-width: 768px){
+        nav{ 
+            font-size: 25px;
+        }
+        h1{
+         font-size: 25px;
+        }
+        h2{
+         font-size: 22px;
+        }
+        .formatoTexto{
+            font-size: 18px;
+        }
+        .listaDos{
+            width: 85%;
+        }
+        .listaDos li{
+            font-size: 17px;
+        }
+        .invertiDesde{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .converter{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-items: center;
+            font-family: 'Stick No Bills', sans-serif;
+            width: 600px;
+            border-radius: 3%;
+            align-items: center;
+        }
+        .quePodesHacer{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-items: center;
+            gap: 3rem;
+            margin-top: 40px;
+            margin-bottom: 100px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .formatoTexto{
+        font-size: 25px;
+        word-spacing: 3px;
+        line-height: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+}
+
+

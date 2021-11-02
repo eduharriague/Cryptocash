@@ -1,0 +1,38 @@
+main{
+ h1{
+    Color: black;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: center;
+    padding: 30px;
+ }
+ form{
+    Color: white;
+    font-weight: bold;
+    background-color: rgba(0, 23, 99, 0.651);
+    margin: auto;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-top: 100px;
+    width: 500px;
+ }
+    .formatolabels{
+        margin-left: 20px;
+    }
+    .estiloInputs{
+        width: 90%;
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+        font-size: 18px;
+        margin-right: 10px;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+    .button{
+        padding: 8px;
+        font-family:'Stick No Bills', sans-serif;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
