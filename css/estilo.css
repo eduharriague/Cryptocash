@@ -180,13 +180,6 @@ main h2 {
     width: 600px;
     border-radius: 3%;
     align-items: center; }
-  main .quePodesHacer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 3rem;
-    margin-top: 40px;
-    margin-bottom: 100px; }
   main h1 {
     font-size: 60px; }
   main h2 {
@@ -377,3 +370,13 @@ main .button {
   font-size: 15px; }
   main .button :hover {
     color: rgba(0, 23, 99, 0.651); }
+
+@media only screen and (min-width: 1024px) {
+  main .quePodesHacer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+    margin-bottom: 100px; }
+}
